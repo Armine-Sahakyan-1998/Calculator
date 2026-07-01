@@ -35,7 +35,7 @@ def result():
                 res = x / y
                 return f"{x} / {y} = {res}"
             except ZeroDivisionError:
-                print("Zeroyi bajanel chenq karox: ")
+                print("Cannot divide by zero: ")
                 y = number()
                 
                 
